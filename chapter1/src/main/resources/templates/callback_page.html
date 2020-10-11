@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>callback 페이지</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    </head>
+    <body>
+        Friends who has also granted client-implicit
+        <div id="friends">
+            <ul></ul>
+        </div>
+        <script src="text/javascript">
+            $(document).ready(function() {
+                var fragment = window.location.hash;
+            });
+
+            function getResponse(fragment) {
+                var attributes = fragment.slice(1).split('&');
+                var response = {};
+
+                $(attributes).exach(function(idx, attr) {
+                    var keyValue = attr.split('=');
+                    response[keyValue[0]] = keyValue[1];
+                });
+            }
+        </script>
+    </body>
+</html>
