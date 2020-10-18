@@ -1,0 +1,1 @@
+http://localhost:8080/oauth/authorize?client_id=clientapp&redirect_url=http://localhost:9000/callback&response_type=code&scope=read_profile
