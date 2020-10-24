@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.oauth.bcrypt.Bcrypt" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-10-22T13:22:33" hostname="macui-MacBookAir.local" time="0.238">
+  <properties/>
+  <testcase name="암호화" classname="com.example.oauth.bcrypt.Bcrypt" time="0.238"/>
+  <system-out><![CDATA[$2a$10$ex7ff1WOv9wZkPgRH/Bcc.raypBGVijD6iDi2qOD7vcRngjwzeW62
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
